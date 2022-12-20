@@ -16,7 +16,7 @@ float multipliziere (float zahl1, float zahl2) {
 
 void ausgabeErgebnis (float ergebnis) {
     //Der Paramter, der übergeben wird, wird ausgegeben
-    printf("Das Ergebnis lautet %f.\n",ergebnis);
+    printf("Das Ergebnis lautet %f.2\n",ergebnis);
 }
 
 int main () {
