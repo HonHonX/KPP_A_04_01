@@ -33,9 +33,9 @@ int main () {
 	printf("\n *************************************** \n\n");
 	
 	//Berechnung
-      	float zahl1= eingabeZahl();
-       	float zahl2= eingabeZahl();
-       	ausgabeErgebnis(multipliziere(zahl1,zahl2));
+    float zahl1= eingabeZahl();
+    float zahl2= eingabeZahl();
+    ausgabeErgebnis(multipliziere(zahl1,zahl2));
   
  	//Ende
 	printf("\n\n");
