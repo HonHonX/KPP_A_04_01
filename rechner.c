@@ -4,7 +4,7 @@ float eingabeZahl () {
     //Eingabe der Zahlen 1 und 2, die multipliziert werden sollen
     float zahl;
     printf("\nBitte geben Sie einen Faktor ein: ");
-    scanf("%f", &zahl)
+    scanf("%f", &zahl);
     return zahl;
 }
 
@@ -14,7 +14,7 @@ float multipliziere (float zahl1, float zahl2) {
 }
 
 void ausgabeErgebnis (float ergebnis) {
-    printf("Das Ergebnis lautet %f.\n",ergebnis);
+    printf("\n\nDas Ergebnis lautet %f.\n",ergebnis);
 }
 
 int main () {
